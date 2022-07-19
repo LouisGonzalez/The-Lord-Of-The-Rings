@@ -13,7 +13,7 @@ public class Human extends Heroe {
         super(name, LifeDict.LIFE_HUMAN, armor);
     }
 
-    public void particularMove(){
+    public void particularMove(Character enemy){
         terminal.showMessage("The humans dont have any special move");
     }
 
