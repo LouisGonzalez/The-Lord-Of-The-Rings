@@ -7,6 +7,7 @@ public class Terminal {
     public void showMessage(String message){
         System.out.println(message);
     }
+    
 
     public int askNumber(String message){
         Scanner scanner = new Scanner(System.in);
