@@ -51,5 +51,6 @@ public class Messages {
         terminal.showMessage("           The " + team + " has been defeated         ");
         terminal.showMessage("*****************************************************");
     }
+    
 
 }
